@@ -1,0 +1,19 @@
+.bg-img {
+    background-image: url(https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.counter-container {
+    border: 1px solid rgba(0,0,0, 0.3);
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+#calendar-button {
+    background-color: rgba(247, 237, 226, 0.8);
+    color: rgb(133, 77, 14);
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    margin-top: 2rem;
+}

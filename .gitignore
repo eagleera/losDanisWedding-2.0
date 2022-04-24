@@ -7,3 +7,9 @@ node_modules
 /build/
 /public/build
 /api/index.js
+
+/.cache
+/build
+/public/build
+.env
+/app/tailwind.css
