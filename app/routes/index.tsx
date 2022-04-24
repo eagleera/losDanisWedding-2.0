@@ -1,6 +1,6 @@
 import { json, LoaderFunction } from "remix";
 import { useTranslation } from "react-i18next";
-import { i18n } from "~/i18n.server"; // this is the first file you created
+import { i18n } from "~/i18n.server";
 
 export let loader: LoaderFunction = async ({ request }) => {
   return json({

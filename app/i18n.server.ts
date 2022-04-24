@@ -7,5 +7,5 @@ let backend = new FileSystemBackend("./public/locales");
 
 export let i18n = new RemixI18Next(backend, {
   fallbackLng: "en", // here configure your default (fallback) language
-  supportedLanguages: ["en", "de"], // here configure your supported languages
+  supportedLanguages: ["en", "es"], // here configure your supported languages
 });

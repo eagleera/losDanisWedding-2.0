@@ -14,7 +14,7 @@ export default async function handleRequest(
   // Here you also ned to initialize i18next using initReactI18next, you should
   // use the same configuration as in your client side.
   await i18next.use(initReactI18next).init({
-    supportedLngs: ["en", "de"],
+    supportedLngs: ["en", "es"],
     defaultNS: "index",
     fallbackLng: "en",
     react: { useSuspense: false },

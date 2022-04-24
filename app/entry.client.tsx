@@ -8,7 +8,7 @@ import { RemixI18NextProvider } from "remix-i18next";
 i18next
   .use(initReactI18next)
   .init({
-    supportedLngs: ["en", "de"],
+    supportedLngs: ["en", "es"],
     defaultNS: "index",
     fallbackLng: "en",
     // I recommend you to always disable react.useSuspense for i18next
