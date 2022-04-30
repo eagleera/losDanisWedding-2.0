@@ -1,6 +1,9 @@
 {
     "header": {
-        "people": "Personas"
+        "place": "Lugar",
+        "rsvp": "Asistencia",
+        "photos": "Fotos",
+        "accomodations": "Alojamiento"
     },
     "landing": {
         "ourWedding": "Our Wedding",

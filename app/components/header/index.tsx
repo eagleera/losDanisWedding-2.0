@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 interface Props {
   t: Function;
@@ -31,13 +31,11 @@ export const Header = ({ t }: Props) => {
   }, []);
 
   return (
-    <header id="header" className="p-6 bg-brown flex justify-around text-xl opacity-0 absolute top-0 transition-opacity duration-200">
-      <div>{t("header.people")}</div>
-      <div>{t("header.party")}</div>
-      <div>{t("header.place")}</div>
-      <div>{t("header.accomodations")}</div>
-      <div>{t("header.rsvp")}</div>
+    <header id="header" className="p-6 bg-brown flex justify-around text-xl opacity-0 absolute top-0 transition-opacity duration-200 z-10">
       <div>{t("header.photos")}</div>
+      <div>{t("header.place")}</div>
+      <div>{t("header.rsvp")}</div>
+      <div>{t("header.accomodations")}</div>
     </header>
   );
 };
