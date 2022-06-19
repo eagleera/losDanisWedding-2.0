@@ -8,7 +8,6 @@ export const Header = ({ t }: Props) => {
   function logit() {
     setScrollY(window.pageYOffset);
     const header = document.getElementById("header")
-    console.log(window.pageYOffset)
     if(window.pageYOffset > 800) {
       header?.classList.remove("opacity-0");
       header?.classList.remove("absolute");

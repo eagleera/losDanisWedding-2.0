@@ -13,6 +13,7 @@ import timerStyles from "../styles/datetime.css";
 import patternStyles from "../styles/pattern.css";
 import carouselStyles from "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Details } from "~/components/details";
+import { Registry } from "~/components/registry";
 
 export let loader: LoaderFunction = async ({ request }) => {
   return json({
@@ -32,7 +33,7 @@ export const links: LinksFunction = () => {
 
 export default function Index() {
   let { t } = useTranslation();
-
+  console.log(t);
   return (
     <React.Fragment>
       <Header t={t} />
@@ -50,7 +51,7 @@ export default function Index() {
             </p>
             <div className="counter-container">
               <Timer targetDate={new Date("2022-10-01T20:00:00")} t={t} />
-              <p className="text-center text-yellow-800 font-bold md:text-2xl text-xl">
+              <p className="text-center text-yellow-800 font-bold md:text-2xl text-xl uppercase">
                 {t("date")}
               </p>
             </div>
@@ -69,6 +70,7 @@ export default function Index() {
       <Quote t={t} />
       <Carousel />
       <Details t={t} />
+      <Registry t={t} />
     </React.Fragment>
   );
 }

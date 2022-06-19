@@ -14,8 +14,14 @@
         "ourStory": "Our Story",
         "storySummary": "It all started on the summer of 2017 in Camargo, Chihuahua. After surviving 4 years of college separated by a two hour drive, the destiny finally put us together in Chihuahua where we saw each other achievements, laughs and beautiful moments. And today we want to celebrate with all of you our decision of tying the knot forever."
     },
-    "sample": "test",
-    "date": "SATURDAY, OCTOBER 1 2022",
+    "details": {
+        "where": "Where and when?",
+        "ceremony": "Spiritual Ceremony",
+        "party": "Party!",
+        "locationbtn": "See location"
+    },
+    "registry": "Wedding Registry",
+    "date": "Saturday, October 1st 2022",
     "days": "Days",
     "hours": "Hours",
     "mins": "Mins",

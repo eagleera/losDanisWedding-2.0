@@ -11,8 +11,14 @@
         "ourStory": "Nuestra historia",
         "storySummary": "Nuestra historia comienza un verano del 2017 en Camargo. Luego de sobrevivir 4 años de universidad, el destino nos unio en la ciudad de Chihuahua donde vivimos logros, risas y hermosos momentos. Y hoy queremos celebrar con ustedes nuestra decisión de unir nuestras vidas para siempre."
     },
-    "sample": "test2",
-    "date": "SÁBADO, 1 DE OCTUBRE 2022",
+    "details": {
+        "where": "¿Donde <br /> y a que hora?",
+        "ceremony": "Ceremonia Espiritual",
+        "party": "¡Fiesta!",
+        "locationbtn": "Ver ubicación"
+    },
+    "registry": "Mesa de Regalos",
+    "date": "Sábado, 1 de Octubre 2022",
     "days": "Dias",
     "hours": "Horas",
     "mins": "Mins",

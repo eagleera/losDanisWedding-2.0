@@ -45,7 +45,9 @@ export const Quote = ({ t }: Props) => (
                 />
               </svg>
             </div>
-            <p className="text-4xl py-24 px-36">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat labore officiis modi ratione harum quibusdam voluptas in! Molestias recusandae voluptates totam excepturi, perspiciatis, nobis cupiditate vero ex rerum quo fugiat.</p>
+            <p className="text-4xl py-24 px-36">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat labore officiis modi ratione harum quibusdam voluptas in! Molestias recusandae voluptates totam excepturi, perspiciatis, nobis cupiditate vero ex rerum quo fugiat.
+              </p>
             <div className="w-48 m-auto mr-0 relative">
               <svg
                 version="1.1"

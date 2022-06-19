@@ -25,7 +25,6 @@ const ExpiredNotice = () => {
 
 
 const ShowCounter = ({ days, hours, minutes, seconds, t }: Time) => {
-  console.log(days, hours, minutes, seconds);
   return (
     <div className="show-counter">
       <div className="countdown-link text-yellow-800">
