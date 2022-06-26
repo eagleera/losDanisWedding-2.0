@@ -35,9 +35,13 @@ export const Hero = ({ t }: Props) => {
                                     atcb_action({
                                         name: "Los Danis Wedding",
                                         startDate: "2022-10-01",
-                                        endDate: "2022-10-01",
-                                        options: ['Apple', 'Google', 'iCal', 'Microsoft365', 'Outlook.com', 'MicrosoftTeams', 'Yahoo'],
+                                        endDate: "2022-10-02",
+                                        startTime: "19:00",
+                                        endTime: "02:00",
+                                        location: "la cayetana finca para eventos",
+                                        options: ['Apple', 'Google', 'iCal', 'Outlook.com'],
                                         trigger: "click",
+                                        timeZone: "America/Chihuahua",
                                         iCalFileName: "Wedding Danis",
                                       })
                                 }

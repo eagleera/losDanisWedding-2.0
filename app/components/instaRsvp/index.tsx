@@ -5,7 +5,7 @@ interface Props {
 export const InstaRsvp = ({ t }: Props) => {
     return (
         <section className="relative md:flex" id="rsvp">
-            <div className="w-full md:w-1/2 m-auto p-16 py-12">
+            <div className="w-full md:w-1/2 m-auto p-16 py-6">
                 <div className="">
                     <p className="font-bodoni text-3xl text-center text-yellow-900 font-bold pb-6 mt-8">
                         {t("rsvp")}
@@ -14,7 +14,7 @@ export const InstaRsvp = ({ t }: Props) => {
                     <p className="text-sm pt-8 text-yellow-700">{t("rsvpFootnote")}</p>
                 </div>
             </div>
-            <div className="w-full md:w-1/2 m-auto bg-yellow-900 p-8 py-24 text-white text-center">
+            <div className="w-full md:w-1/2 m-auto bg-yellow-900 p-8 py-32 text-white text-center">
                 <p className="font-bodoni text-2xl text-center font-bold pb-6 mt-8">
                     {t("shareMoments")}
                 </p>
