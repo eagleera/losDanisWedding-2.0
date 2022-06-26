@@ -46,7 +46,7 @@ export const Story = ({ t }: Props) => {
         </div>
         <img
           className="p-4 rounded-full w-1/4 "
-          src="https://images.unsplash.com/photo-1602900032867-2eb876772a81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+          src="/images/circle.jpg"
           alt=""
         />
         <div className="border-b-4 self-end w-1/3 border-yellow-900">
