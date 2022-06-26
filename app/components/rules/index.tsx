@@ -16,7 +16,7 @@ export const Rules = ({ t }: Props) => {
                 </p>
                 <div className="flex w-full justify-evenly flex-wrap mt-8">
                     <div className="text-center w-1/3 p-4">
-                        <a href="/images/dresscode2.png" target="_blank">
+                        <a href="/images/dresscode2.jpg" target="_blank">
                             <img className="w-20 m-auto" src="/images/dresscode.png" alt="dress code" />
                             <p className="mt-4 font-bold text-yellow-800">{t("dressCode")}</p>
                             <p className="text-yellow-800">{t("dressCodeDesc")}</p>

@@ -11,6 +11,9 @@ export const Registry = ({ t }: Props) => {
         <p className="font-bodoni text-6xl text-center text-yellow-900 font-bold pb-6 mt-8">
           {t("registry")}
         </p>
+        <p className="text-center text-yellow-800">
+          {t("registryDesc")}
+        </p>
       </div>
       <div className="w-full lg:w-2/3 p-4 m-auto relative">
         <div className="text-center mb-8">
