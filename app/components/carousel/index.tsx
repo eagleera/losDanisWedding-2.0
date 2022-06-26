@@ -14,37 +14,37 @@ export const Carousel = () => {
       <div className="w-11/12 md:w-2/3 m-auto p-6">
         <ReactCarousel>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP5676.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP5676.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP4251.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP4251.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP5554.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP5554.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP4288.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP4288.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP4312.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP4312.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP4541.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP4541.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP5213.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP5213.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP4745.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP4745.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP5138.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP5138.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP5048.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP5048.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP5102.webp" />
+            <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP5102.webp" />
           </div>
         </ReactCarousel>
       </div>

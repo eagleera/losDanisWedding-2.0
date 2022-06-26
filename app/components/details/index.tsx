@@ -46,6 +46,9 @@ export const Details = ({ t }: Props) => {
               {t("details.locationbtn")}
             </a>
           </div>
+          <p className="text-center text-yellow-700 text-md">
+            {t("address")}
+          </p>
         </div>
       </div>
     </section>
