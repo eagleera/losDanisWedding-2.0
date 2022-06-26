@@ -19,8 +19,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Bodoni Moda', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
-        'leky': 'Leky Calgria',
-        'parisienne': 'Parisienne'
+        'leky': 'Leky Calgria'
       },
     },
   },

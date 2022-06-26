@@ -13,7 +13,7 @@ export const InstaRsvp = ({ t }: Props) => {
                     <p className="text-xl text-yellow-800">{t("rsvpDesc")}</p>
                     <p className="text-sm pt-8 text-yellow-700">
                         <span>{t("rsvpFootnote")} </span>
-                        <a href="mailto:wedding@losdanis.com">{t("mail")}</a>
+                        <a className="underline font-bold" href="mailto:wedding@losdanis.com">{t("mail")}</a>
                     </p>
                 </div>
             </div>

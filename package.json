@@ -4,6 +4,7 @@
   "description": "",
   "license": "",
   "dependencies": {
+    "@fontsource/bodoni-moda": "^4.5.6",
     "@remix-run/react": "^1.6.1",
     "@remix-run/vercel": "^1.6.1",
     "add-to-calendar-button": "^1.8.3",
