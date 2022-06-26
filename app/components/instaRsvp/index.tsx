@@ -19,7 +19,7 @@ export const InstaRsvp = ({ t }: Props) => {
                     {t("shareMoments")}
                 </p>
                 <p className="text-xl">{t("hashtag")}</p>
-                <p className="font-bold text-4xl mt-4">#LosDanisWedding</p>
+                <p className="font-bold text-2xl md:text-4xl mt-4">#LosDanisWedding</p>
             </div>
         </section>
     );

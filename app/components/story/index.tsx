@@ -42,7 +42,7 @@ export const Story = ({ t }: Props) => {
       </div>
       <div className="flex justify-center pt-4">
         <div className="border-t-4 item-start w-1/3 border-brown">
-          <p className="p-4 text-5xl italic text-yellow-700">Daniela</p>
+          <p className="p-4 text-3xl md:text-5xl italic text-yellow-700">Daniela</p>
         </div>
         <img
           className="p-4 rounded-full w-1/4 "
@@ -50,7 +50,7 @@ export const Story = ({ t }: Props) => {
           alt=""
         />
         <div className="border-b-4 self-end w-1/3 border-yellow-900">
-          <p className="p-4 text-5xl italic text-yellow-900">Daniel</p>
+          <p className="p-4 text-3xl md:text-5xl italic text-yellow-900">Daniel</p>
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@
   background-position: bottom;
 }
 .counter-container {
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(133, 77, 14, 0.5);
   border-radius: 0.25rem;
   padding: 1rem;
 }
