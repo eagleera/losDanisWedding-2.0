@@ -8,8 +8,9 @@ export const Details = ({ t }: Props) => {
       <div className="flex items-center justify-center relative">
         <p
           className="font-bodoni text-6xl text-center text-yellow-700 font-bold pb-16 mt-8"
-          dangerouslySetInnerHTML={{ __html: t("details.where") }}
-        ></p>
+        >
+          {t("details.where")}
+        </p>
       </div>
       <div className="block lg:flex w-11/12 md:w-2/3 m-auto border-4 border-brown border-double rounded-tl rounded-bl">
         <img
