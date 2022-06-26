@@ -2,7 +2,8 @@
   font-family: 'Leky Calgria';
   font-style: normal;
   font-weight: 400;
-  src: local('Leky Calgria'), url('https://fonts.cdnfonts.com/s/62908/LekyCalgriaPersonalUse-ywJRd.woff') format('woff');
+  src: url('/fonts/leky.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
@@ -10,12 +11,14 @@
   font-style: normal;
   font-weight: 400;
   src: url('/fonts/bodoni-moda-all-400-normal.woff') format('woff');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: italic;
   font-weight: 400;
   src: url('/fonts/bodoni-moda-all-400-italic.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
@@ -23,12 +26,14 @@
   font-style: normal;
   font-weight: 700;
   src: url('/fonts/bodoni-moda-all-700-normal.woff') format('woff');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Bodoni Moda';
   font-style: italic;
   font-weight: 700;
   src: url('/fonts/bodoni-moda-all-700-italic.woff') format('woff');
+  font-display: swap;
 }
 
 .bg-img {
