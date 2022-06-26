@@ -10,12 +10,12 @@ export const Hero = ({ t }: Props) => {
     return (
         <section>
             <div className="flex items-center min-h-screen justify-center bg-img">
-                <div className="w-11/12">
+                <div className="w-11/12 mt-40 md:mt-0">
                     <motion.div initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                     >
-                        <h1 className="text-5xl text-bone mb-4 mt-12 md:mt-0">
+                        <h1 className="text-3xl md:text-5xl text-bone mb-4 mt-12 md:mt-0">
                             {t("landing.ourWedding")}
                         </h1>
                     </motion.div>
@@ -23,7 +23,7 @@ export const Hero = ({ t }: Props) => {
                         whileInView={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
                     >
-                        <h2 className="text-4xl md:text-7xl lg:text-9xl text-wedYellow">
+                        <h2 className="text-5xl md:text-7xl lg:text-9xl text-wedYellow">
                             Daniela & Daniel
                         </h2>
                     </motion.div>
