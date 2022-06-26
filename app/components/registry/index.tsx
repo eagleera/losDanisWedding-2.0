@@ -91,9 +91,9 @@ export const Registry = ({ t }: Props) => {
             </div>
             <div>
               <a href="" className="" target="_blank">
-                <div className="w-48 h-36 mb-4 bg-bone rounded-xl flex justify-center items-center hover:bg-white transition">
+                <div className="w-48 h-36 mb-4 bg-bone rounded-xl flex justify-center items-center hover:bg-white transition relative">
                   <img
-                    className="py-6 px-8 h-full"
+                    className="absolute top-0 left-1/2 -translate-y-1/2 h-full"
                     src="/images/target.png"
                     alt="target wedding registry"
                   />
