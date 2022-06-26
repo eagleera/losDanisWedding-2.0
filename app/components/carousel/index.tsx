@@ -14,9 +14,6 @@ export const Carousel = () => {
       <div className="w-11/12 md:w-2/3 m-auto p-6">
         <ReactCarousel>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP4179.webp" />
-          </div>
-          <div>
             <img loading="lazy" src="/images/carousel/_OVP5676.webp" />
           </div>
           <div>
@@ -29,13 +26,7 @@ export const Carousel = () => {
             <img loading="lazy" src="/images/carousel/_OVP4288.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP5466.webp" />
-          </div>
-          <div>
             <img loading="lazy" src="/images/carousel/_OVP4312.webp" />
-          </div>
-          <div>
-            <img loading="lazy" src="/images/carousel/_OVP5275.webp" />
           </div>
           <div>
             <img loading="lazy" src="/images/carousel/_OVP4541.webp" />
@@ -50,7 +41,7 @@ export const Carousel = () => {
             <img loading="lazy" src="/images/carousel/_OVP5138.webp" />
           </div>
           <div>
-            <img loading="lazy" src="/images/carousel/_OVP5058.webp" />
+            <img loading="lazy" src="/images/carousel/_OVP5048.webp" />
           </div>
           <div>
             <img loading="lazy" src="/images/carousel/_OVP5102.webp" />
