@@ -22,14 +22,14 @@ export const Details = ({ t }: Props) => {
           <h3 className="text-4xl text-yellow-800 font-bold leading-10 text-center">
             La Cayetana Finca para Eventos
           </h3>
-          <div className="p-12">
+          <div className="p-12 text-yellow-700">
             <h3 className="text-3xl">{t("details.ceremony")}</h3>
             <ul className="pt-1">
               <li className="italic font-medium">8:00PM - 8:30PM Hrs </li>
               <li>{t("date")}</li>
             </ul>
           </div>
-          <div className="px-12">
+          <div className="px-12 text-yellow-700">
             <h3 className="pt-12 text-3xl border-t-2">{t("details.party")}</h3>
             <ul className="pt-1">
               <li className="italic font-medium">9:00PM - 2:00 AM Hrs </li>
