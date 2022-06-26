@@ -8,17 +8,21 @@
     "@remix-run/vercel": "^1.6.1",
     "add-to-calendar-button": "^1.8.3",
     "i18next": "^21.6.11",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-fs-backend": "^1.1.4",
+    "i18next-http-backend": "^1.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.15.4",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",
     "remix": "^1.2.1",
-    "remix-i18next": "^2.2.0"
+    "remix-i18next": "^4.1.1"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.6.1",
     "@remix-run/serve": "^1.6.1",
+    "@types/i18next-fs-backend": "^1.1.2",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "cross-env": "^7.0.3",

@@ -1,7 +1,7 @@
 import React from "react";
 import { json, LoaderFunction, LinksFunction } from "remix";
 import { useTranslation } from "react-i18next";
-import { i18n } from "~/i18n.server";
+//import i18next from "~/i18n.server";
 import { Header } from "~/components/header";
 import { Quote } from "~/components/quote";
 import { Carousel } from "~/components/carousel";
@@ -18,11 +18,11 @@ import { InstaRsvp } from "~/components/instaRsvp";
 import { Footer } from "~/components/footer";
 import { Hero } from "~/components/hero";
 
-export let loader: LoaderFunction = async ({ request }) => {
-  return json({
-    i18n: await i18n.getTranslations(request, ["index"]),
-  });
-};
+//export let loader: LoaderFunction = async ({ request }) => {
+//  return json({
+//    i18n: await i18next.getTranslations(request, ["index"]),
+//  });
+//};
 
 export const links: LinksFunction = () => {
   return [

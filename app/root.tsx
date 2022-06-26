@@ -10,13 +10,13 @@ import {
 } from "remix";
 import type { MetaFunction } from "remix";
 import { json, LoaderFunction } from "remix";
-import { useRemixI18Next } from "remix-i18next";
-import { i18n } from "~/i18n.server";
+import i18next from "~/i18n.server";
 import { useTranslation } from "react-i18next";
 import styles from "./tailwind.css";
+import { useChangeLanguage } from "remix-i18next";
 
 export let loader: LoaderFunction = async ({ request }) => {
-  let locale = await i18n.getLocale(request);
+  let locale = await i18next.getLocale(request);
   return json({ locale });
 };
 
@@ -47,14 +47,17 @@ export const links: LinksFunction = () => [
 export const meta: MetaFunction = () => {
   return { title: "Los Danis Wedding" };
 };
+export let handle = {
+  i18n: "index"
+}
 
 export default function App() {
   let { i18n } = useTranslation();
   let { locale } = useLoaderData<{ locale: string }>();
-  useRemixI18Next(locale);
+  useChangeLanguage(locale);
   
   return (
-    <html lang={i18n.language}>
+    <html lang={locale} dir={i18n.dir()}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
