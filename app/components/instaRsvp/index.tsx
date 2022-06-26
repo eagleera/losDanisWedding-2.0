@@ -11,7 +11,10 @@ export const InstaRsvp = ({ t }: Props) => {
                         {t("rsvp")}
                     </p>
                     <p className="text-xl text-yellow-800">{t("rsvpDesc")}</p>
-                    <p className="text-sm pt-8 text-yellow-700">{t("rsvpFootnote")}</p>
+                    <p className="text-sm pt-8 text-yellow-700">
+                        <span>{t("rsvpFootnote")}</span>
+                        <a href={t("mailto")}>{t("mail")}</a>
+                    </p>
                 </div>
             </div>
             <div className="w-full md:w-1/2 m-auto bg-yellow-900 p-8 py-32 text-white text-center">

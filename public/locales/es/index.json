@@ -31,12 +31,15 @@
     "hashtag": "utiliza nuestro hashtag",
     "rsvp": "¡Te esperamos!",
     "rsvpDesc": "En los siguientes días recibiras una llamada para confirmar tu asistencia",
-    "rsvpFootnote": "Si aún tienes dudas, puedes enviar un correo a general@losdanis.com",
+    "rsvpFootnote": "Si aún tienes dudas, puedes enviar un correo a",
+    "mailto": "mailto:boda@losdanis.com?subject=Preguntas%20sobre%20boda",
+    "mail": "boda@losdanis.com",
     "love": "Esta invitación fue hecha con ",
     "date": "Sábado, 1 de Octubre 2022",
     "days": "Dias",
     "hours": "Horas",
     "mins": "Mins",
     "secs": "Segundos",
-    "weddingName": "Boda de los Danis"
+    "weddingName": "Boda de los Danis",
+    "quote": "Cuando amamos, nos esforzamos por ser mejor de lo que somos y todo a nuestro alrededor también se vuelve mejor. - Paulo Coelho"
 }

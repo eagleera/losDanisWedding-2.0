@@ -35,11 +35,14 @@
     "date": "Saturday, October 1st 2022",
     "rsvp": "We hope you can join us",
     "rsvpDesc": "In the following days you will recieve a call to confirm your attendance",
-    "rsvpFootnote": "If you have more questions, please mail us at general@losdanis.com",
+    "rsvpFootnote": "If you have more questions, please mail us at",
+    "mailto": "mailto:wedding@losdanis.com?subject=Questions%20about%20wedding",
+    "mail": "wedding@losdanis.com",
     "love": "This website was made with ",
     "days": "Days",
     "hours": "Hours",
     "mins": "Mins",
     "secs": "Seconds",
-    "weddingName": "Dani's Wedding"
+    "weddingName": "Dani's Wedding",
+    "quote": "When we love, we always strive to become better than we are. When we strive to become better than we are, everything around us become better too. - Paulo Coelho"
 }
