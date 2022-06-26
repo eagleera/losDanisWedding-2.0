@@ -15,7 +15,7 @@ export const Hero = ({ t }: Props) => {
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                     >
-                        <h1 className="text-5xl text-yellow-700 mb-4">
+                        <h1 className="text-5xl text-bone mb-4 mt-12 md:mt-0">
                             {t("landing.ourWedding")}
                         </h1>
                     </motion.div>
@@ -23,7 +23,7 @@ export const Hero = ({ t }: Props) => {
                         whileInView={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
                     >
-                        <h2 className="text-4xl md:text-7xl lg:text-9xl text-yellow-900">
+                        <h2 className="text-4xl md:text-7xl lg:text-9xl text-wedYellow">
                             Daniela & Daniel
                         </h2>
                     </motion.div>
@@ -32,7 +32,7 @@ export const Hero = ({ t }: Props) => {
                         viewport={{ once: true }}
                         transition={{ delay: 0.5 }}
                     >
-                        <p className="py-1 pt-6 md:text-center text-xl text-yellow-700">
+                        <p className="py-1 pt-6 md:text-center text-xl text-bone">
                             SAVE THE DATE
                         </p>
                     </motion.div>
@@ -43,7 +43,7 @@ export const Hero = ({ t }: Props) => {
                     >
                         <div className="counter-container">
                             <Timer targetDate={new Date("2022-10-01T20:00:00")} t={t} />
-                            <p className="text-center text-yellow-800 font-bold md:text-2xl text-xl uppercase">
+                            <p className="text-center text-bone font-bold md:text-2xl text-xl uppercase">
                                 {t("date")}
                             </p>
                         </div>
