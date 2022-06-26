@@ -14,9 +14,10 @@ export const Details = ({ t }: Props) => {
       </div>
       <div className="block lg:flex w-11/12 md:w-2/3 m-auto border-4 border-brown border-double rounded-tl rounded-bl">
         <img
-          src="/images/la_cayetana.jpg"
+          src="/images/cayetana.jpg"
           alt="la cayetana finca para eventos"
           className="w-full lg:w-1/2"
+          loading="lazy"
         />
         <div className="w-full lg:w-2/3 p-4 m-auto relative">
           <h3 className="text-4xl text-yellow-800 font-bold leading-10 text-center">

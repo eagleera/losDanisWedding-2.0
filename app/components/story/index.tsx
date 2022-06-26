@@ -54,7 +54,8 @@ export const Story = ({ t }: Props) => {
         <img
           className="p-4 rounded-full w-1/4 "
           src="/images/circle.jpg"
-          alt=""
+          alt="Daniela and Dany"
+          loading="lazy"
         />
         <div className="border-b-4 self-end w-1/3 border-yellow-900">
           <p className="p-4 text-3xl md:text-5xl italic text-yellow-900">Daniel</p>
