@@ -6,8 +6,8 @@ interface Props {
 export const Registry = ({ t }: Props) => {
   const [country, setCountry] = useState("mexico");
   return (
-    <section className="relative pt-6 bg-wedYellow">
-      <div className="flex items-center justify-center">
+    <section className="relative pt-6 bg-wedYellow" id="registry">
+      <div className="flex items-center justify-center w-11/12 m-auto">
         <p className="font-bodoni text-6xl text-center text-yellow-900 font-bold pb-6 mt-8">
           {t("registry")}
         </p>

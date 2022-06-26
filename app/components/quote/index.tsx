@@ -5,8 +5,8 @@ interface Props {
 }
 export const Quote = ({ t }: Props) => (
     <section>
-        <div className="text-yellow-800 pattern-cross-dots-xl p-24">
-          <div className="text-center m-auto bg-bone border-4 border-brown border-double rounded">
+        <div className="text-yellow-800 pattern-cross-dots-xl py-24">
+          <div className="w-11/12 md:w-2/3 text-center m-auto bg-bone border-4 border-brown border-double rounded">
             <div className="w-48 relative">
               <svg
                 version="1.1"
@@ -15,7 +15,7 @@ export const Quote = ({ t }: Props) => (
                 x="0px"
                 y="0px"
                 viewBox="0 0 57 57"
-                className="absolute"
+                className="absolute z-0"
               >
                 <g>
                   <circle style={{fill: "#EBA57D"}} cx="18.5" cy="31.5" r="5.5" />
@@ -45,7 +45,7 @@ export const Quote = ({ t }: Props) => (
                 />
               </svg>
             </div>
-            <p className="text-4xl py-24 px-36">
+            <p className="text-2xl md:text-4xl py-24 px-12 lg:px-36 z-10 relative">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat labore officiis modi ratione harum quibusdam voluptas in! Molestias recusandae voluptates totam excepturi, perspiciatis, nobis cupiditate vero ex rerum quo fugiat.
               </p>
             <div className="w-48 m-auto mr-0 relative">
@@ -56,7 +56,7 @@ export const Quote = ({ t }: Props) => (
                 x="0px"
                 y="0px"
                 viewBox="0 0 57 57"
-                className="absolute rotate-180 -top-48"
+                className="absolute rotate-180 -top-48 z-0"
               >
                 <g>
                   <circle style={{fill: "#EBA57D"}} cx="18.5" cy="31.5" r="5.5" />

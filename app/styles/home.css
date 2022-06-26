@@ -26,6 +26,14 @@
   width: 100%;
   height: auto;
 }
+#header > div {
+  transition: all 0.2s ease-in-out;
+}
+
+#header > div:hover {
+  color: white;
+}
+
 .place-card {
   background-image: url("/images/la_cayetana.jpg");
   background-size: cover;
