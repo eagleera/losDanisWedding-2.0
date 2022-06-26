@@ -14,7 +14,8 @@ import { useRemixI18Next } from "remix-i18next";
 import { i18n } from "~/i18n.server";
 import { useTranslation } from "react-i18next";
 import styles from "./tailwind.css";
-
+import enContent from "../public/locales/en/index.json";
+import esContent from "../public/locales/es/index.json";
 export let loader: LoaderFunction = async ({ request }) => {
   let locale = await i18n.getLocale(request);
   return json({ locale });
@@ -45,7 +46,7 @@ export const links: LinksFunction = () => [
 ];
 
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+  return { title: "Los Danis Wedding" };
 };
 
 export default function App() {
