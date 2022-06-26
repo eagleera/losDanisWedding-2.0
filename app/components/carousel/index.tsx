@@ -14,13 +14,46 @@ export const Carousel = () => {
       <div className="w-11/12 md:w-2/3 m-auto p-6">
         <ReactCarousel>
           <div>
-            <img loading="lazy" src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80" />
+            <img loading="lazy" src="/images/carousel/_OVP4179.webp" />
           </div>
           <div>
-            <img loading="lazy" src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlZGRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60" />
+            <img loading="lazy" src="/images/carousel/_OVP5676.webp" />
           </div>
           <div>
-            <img loading="lazy" src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHdlZGRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60" />
+            <img loading="lazy" src="/images/carousel/_OVP4251.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP5554.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP4288.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP5466.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP4312.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP5275.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP4541.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP5213.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP4745.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP5138.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP5058.webp" />
+          </div>
+          <div>
+            <img loading="lazy" src="/images/carousel/_OVP5102.webp" />
           </div>
         </ReactCarousel>
       </div>
