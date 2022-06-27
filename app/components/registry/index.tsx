@@ -79,7 +79,7 @@ export const Registry = ({ t }: Props) => {
               </a>
             </div>
             <div>
-              <a href="" className="" target="_blank">
+              <a href="https://www.target.com/gift-registry/gift/losdaniswedding" className="" target="_blank">
                 <div className="w-48 h-36 mb-4 bg-bone rounded-xl flex justify-center items-center hover:bg-white transition relative">
                   <img
                     className="absolute top-0 left-1/2 -translate-x-1/2 h-full"
