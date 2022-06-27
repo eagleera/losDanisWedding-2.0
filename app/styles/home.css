@@ -36,10 +36,6 @@
   font-display: swap;
 }
 
-section {
-  content-visibility: auto;
-}
-
 .bg-img {
   position: relative;
 }

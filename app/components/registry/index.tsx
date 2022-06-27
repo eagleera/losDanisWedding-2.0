@@ -43,17 +43,6 @@ export const Registry = ({ t }: Props) => {
         {country === "mexico" ? (
           <div className="flex w-full justify-evenly flex-wrap">
             <div>
-              <a href="" className="" target="_blank">
-                <div className="w-48 h-36 mb-4 bg-bone rounded-xl flex justify-center items-center hover:bg-white transition">
-                  <img
-                    className="py-4 px-8 h-full w-full"
-                    src="/images/amazon-boda.svg"
-                    alt="amazon mesa de regalos"
-                  />
-                </div>
-              </a>
-            </div>
-            <div>
               <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50945120" className="" target="_blank">
                 <div className="w-48 h-36 mb-4 bg-bone rounded-xl flex justify-center items-center hover:bg-white transition">
                   <img
