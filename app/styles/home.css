@@ -36,6 +36,10 @@
   font-display: swap;
 }
 
+section {
+  content-visibility: auto;
+}
+
 .bg-img {
   position: relative;
 }
@@ -87,15 +91,4 @@
   background-image: url("/images/la_cayetana.jpg");
   background-size: cover;
   background-position: center;
-}
-
-.map-container.iframe {
-  position: absolute;
-  width: 100%;
-}
-.map-container {
-  height: 100%;
-  width: 93%;
-  position: absolute;
-  z-index: -1;
 }

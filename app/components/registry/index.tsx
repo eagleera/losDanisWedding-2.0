@@ -54,7 +54,7 @@ export const Registry = ({ t }: Props) => {
               </a>
             </div>
             <div>
-              <a href="" className="" target="_blank">
+              <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50945120" className="" target="_blank">
                 <div className="w-48 h-36 mb-4 bg-bone rounded-xl flex justify-center items-center hover:bg-white transition">
                   <img
                     className="py-4 px-8 h-full w-full"
