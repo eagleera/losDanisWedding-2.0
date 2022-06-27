@@ -27,7 +27,7 @@ export const links: LinksFunction = () => [
 ];
 
 export const meta: MetaFunction = () => {
-  return { title: "Los Danis Wedding" };
+  return { title: "Los Danis Wedding", description: "Los Danis Wedding Digital Invitation" };
 };
 export let handle = {
   i18n: "index"

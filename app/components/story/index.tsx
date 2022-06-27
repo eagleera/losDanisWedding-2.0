@@ -15,8 +15,8 @@ export const Story = ({ t }: Props) => {
           <svg
             viewBox="120.303 37.766 245.27 390.61"
             xmlns="http://www.w3.org/2000/svg"
-            stroke="#BF8960"
-            fill="#BF8960"
+            stroke="#854D0E"
+            fill="#854D0E"
           >
             <path
               className="st0"
@@ -41,7 +41,7 @@ export const Story = ({ t }: Props) => {
           </svg>
         </div>
       </motion.div>
-      <p className="text-6xl pt-4 font-leky text-brown pb-4">
+      <p className="text-6xl pt-4 font-leky text-yellow-800 pb-4">
         {t("landing.ourStory")}
       </p>
       <div className="w-5/6 md:w-2/3 m-auto p-8">

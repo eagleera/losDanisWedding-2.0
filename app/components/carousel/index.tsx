@@ -12,7 +12,7 @@ export const Carousel = () => {
   return (
     <section className="bg-bone scroll-mt-16" id="carousel">
       <div className="w-11/12 md:w-2/3 m-auto p-6">
-        <ReactCarousel>
+        <ReactCarousel infiniteLoop={true} emulateTouch={true} showIndicators={false}>
           <div>
             <img alt="photoshoot selection" loading="lazy" src="/images/carousel/_OVP5676.webp" />
           </div>
