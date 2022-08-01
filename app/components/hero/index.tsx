@@ -77,7 +77,7 @@ export const Hero = ({ t }: Props) => {
                             animate={{ y: 100 }}
                             transition={{ repeat: Infinity, duration: 3 }}
                         >
-                            <img src="/images/arrow.png" />
+                            <img src="/images/arrow2.png" className="mx-auto w-12" />
                         </motion.div>
                     </motion.div>
                 </div>
