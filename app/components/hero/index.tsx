@@ -71,6 +71,14 @@ export const Hero = ({ t }: Props) => {
                                 {t("landing.addCalendar")}
                             </button>
                         </div>
+                        <motion.div
+                            className="box"
+                            initial={{ y: 0 }}
+                            animate={{ y: 100 }}
+                            transition={{ repeat: Infinity, duration: 3 }}
+                        >
+                            <img src="/images/arrow.png" />
+                        </motion.div>
                     </motion.div>
                 </div>
             </div>
