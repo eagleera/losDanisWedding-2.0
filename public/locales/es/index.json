@@ -9,11 +9,11 @@
         "ourWedding": "Nuestra boda",
         "addCalendar": "Agendar en mi calendario",
         "ourStory": "Nuestra historia",
-        "storySummary": "Nuestra historia comienza un verano del 2017 en Camargo. Luego de sobrevivir 4 años de universidad, el destino nos unio en la ciudad de Chihuahua donde vivimos logros, risas y hermosos momentos. Y hoy queremos celebrar con ustedes nuestra decisión de unir nuestras vidas para siempre."
+        "storySummary": "Nuestra historia comienza un verano del 2017 en Camargo. Luego de sobrevivir 4 años de universidad, el destino nos unió en la ciudad de Chihuahua donde vivimos logros, risas y hermosos momentos. Hoy queremos celebrar con ustedes nuestra decisión de unir nuestras vidas para siempre."
     },
     "details": {
-        "where": "¿Donde y a que hora?",
-        "ceremony": "Ceremonia Espiritual",
+        "where": "¿Donde y a qué hora?",
+        "ceremony": "Ceremonia",
         "party": "¡Fiesta!",
         "locationbtn": "Ver ubicación"
     },
@@ -30,7 +30,7 @@
     "shareMoments": "¡Comparte tus momentos con nosotros!",
     "hashtag": "utiliza nuestro hashtag",
     "rsvp": "¡Te esperamos!",
-    "rsvpDesc": "En los siguientes días recibiras una llamada para confirmar tu asistencia",
+    "rsvpDesc": "En los siguientes días recibirás una llamada para confirmar tu asistencia.",
     "rsvpFootnote": "Si aún tienes dudas, puedes enviar un correo a",
     "mail": "boda@losdanis.com",
     "love": "Esta invitación fue hecha con ",
